@@ -46,5 +46,11 @@ Contributions are always welcome!
 Please feel free to fork the repository and create pull requests with your improvements.
 
 
+##  parallelize the requests (python multiprocessing)
+
+This is a Python script that runs every 10 seconds and sends HTTP requests to a list of URLs.
+It uses the functions framework library to define the cloud function entry point and the requests library to send the requests.
+It also uses the multiprocessing library to parallelize the requests and print the status code and the URL for each request.
+The cloud function returns the output as a JSON string.
 
 
